@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                                  /* Specifies the ECMAScript target version. Here, it's set to ES2016 (ECMAScript 7), which determines the set of JS features your code can use. */
+    "module": "commonjs",                                /* Specifies the module system used in the generated code. CommonJS is typically used in Node.js environments. */
+    "rootDir": "./src/ts/",                                     /* Defines the root folder for TypeScript source files. All paths will be resolved relative to this. */
+    "outDir": "./build",                                      /* Specifies the output directory for compiled JavaScript files. In this case, it's the root folder. */
+    "skipLibCheck": true                                 /* Disables type checking of declaration (.d.ts) files, which can speed up compilation, especially when using external libraries. */
+  }
+}
